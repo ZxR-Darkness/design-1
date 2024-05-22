@@ -17,7 +17,7 @@ class Login(Ui_MainWindow):
         self.show()
     
     def his(self):
-        print("fff")
+        print("test")
 
 
 
