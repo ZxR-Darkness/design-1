@@ -10,10 +10,10 @@ class Login(Ui_MainWindow):
         self.ui = Ui_MainWindow()       
         self.ui.setupUi(self)       
 
-        # authenticate when the login button is clicked
+        
         self.btn1.clicked.connect(self.his)
         
-        # show the login window
+        
         self.show()
     
     def his(self):
